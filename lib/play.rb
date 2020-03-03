@@ -38,7 +38,7 @@ end
 def play (board)
   moves = 1
   until moves == 10
-    turn
+    turn(board)
     moves += 1
   end
 end
