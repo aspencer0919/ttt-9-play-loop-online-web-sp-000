@@ -37,7 +37,7 @@ end
 
 moves = 1
 
-def play(board)
+def play(board, moves)
   until moves == 10
     turn(board)
     moves += 1
